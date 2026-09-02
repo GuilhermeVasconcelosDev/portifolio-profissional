@@ -190,15 +190,89 @@ main > section#servicos > div#ofertas-servicos {
     display: flex;
     align-items: top;
     justify-content: center;
+    background-image: radial-gradient(circle at 0% 100%, rgba(13, 51, 255, 0.22) 20%, transparent 39%);
    
 }
 main > section#servicos > div#ofertas-servicos > div.item-servico {
     background-color: #0D33FF;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
     margin: 20px;
-    padding: 20px;
+    padding: 5px 15px 15px 15px;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
+main > section#servicos > div#ofertas-servicos > div.item-servico > span > img {
+    width: 100%;
+    height: 100%;
+}
+main > section#servicos > div#ofertas-servicos > div.item-servico > span {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+main > section#servicos > div#ofertas-servicos > div.item-servico > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 2px;
+}
+main > section#servicos > div#ofertas-servicos > div.item-servico > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #ffffffb0;
+    padding: 2px;
+    margin: 5px 0px 15px 0px;
+}
+main > section#servicos > div#ofertas-servicos > div.item-servico > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #01e6ff;
+    padding: 5px 3px;
+    cursor: pointer;
+    width: 100%;
+}
+main > section#servicos > div#entregas-info {
+    background-image: radial-gradient(circle at 0% 0%, rgba(13, 51, 255, 0.22) 20%, transparent 37%);
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+main > section#servicos > div#entregas-info > h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 2px;
+    text-shadow: px 3px 10px #0000006e;
+}
+main > section#servicos > div#entregas-info > h1 > span {
+    color: #0D33FF;
+}
+main > section#servicos > div#entregas-box {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+main > section#servicos > div#entregas-box > div#entrega-1, main > section#servicos > div#entregas-box > div#entrega-3 {
+    margin-top: 50px;
+}
+main > section#servicos > div#entregas-box > div.entregas-item {
+    background-color: #0d31ff52;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    padding: 5px 15px 15px 15px;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
