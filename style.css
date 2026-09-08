@@ -40,8 +40,8 @@ header {
     align-items: center;
     z-index: 1000;
 }
-header > i#menu {
-    display: none;
+header > #menu {
+    display: none; 
 }
 header > h1 {
     font-size: 1rem;
@@ -606,9 +606,14 @@ footer > div#footer-info-copy > p {
 }
 @media  (max-width: 767px) {
     body {
-        color: #00eeff;
+    }
+    header > #menu{
+        display: block;
     }
 }
+@media (min-width: 1024px) {
+
+} 
 
 
 
