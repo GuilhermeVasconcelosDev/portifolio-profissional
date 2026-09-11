@@ -61,3 +61,5 @@ carousel.addEventListener('mouseleave', startAutoPlay);
 // Inicializa o funcionamento automático ao carregar a página
 startAutoPlay();
 
+//https://wa.me.5585989516875?text=Ola%21%20Vim%20pelo%20site%20e%20quero%20saber%20mais.
+
