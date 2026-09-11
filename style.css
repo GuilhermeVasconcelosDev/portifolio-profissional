@@ -819,11 +819,11 @@ footer>div#footer-info-copy>p {
         border-radius: 80px;
         backdrop-filter: blur(5px);
         text-align: center;
-        width: 400px;
+        max-width: 80%;
     }
 
     main>section#home>div#home-info>h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 600;
         color: #FFFFFF;
         padding: 2px 2px 2px 10px;
@@ -832,14 +832,14 @@ footer>div#footer-info-copy>p {
 
     main>section#home>div#home-info>h2 {
         font-family: 'Aboreto', sans-serif;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: 400;
         color: #fffffff2;
         padding: 0px 2px 2px 25px;
     }
 
     main>section#home>div#home-info>p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: 400;
         color: #ffffffb0;
         padding: 15px 15px 15px 10px;
@@ -851,7 +851,7 @@ footer>div#footer-info-copy>p {
         font-weight: 400;
         color: #ffffff;
         cursor: pointer;
-        padding: 15px;
+        padding: 15px 10px;
         background-color: #010934;
         border: 1px solid #0c1c77;
         border-radius: 30px;
@@ -860,14 +860,14 @@ footer>div#footer-info-copy>p {
 
     main>section#servicos>div#servicos-info>h1 {
         font-family: 'Poppins', sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 400;
         color: #FFFFFF;
         padding: 2px;
     }
 
     main>section#servicos>div#servicos-info>h2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: 400;
         color: #ffffff74;
         padding: 5px;
@@ -880,13 +880,13 @@ footer>div#footer-info-copy>p {
         flex-direction: column;
         align-items: center;
         justify-content: top;
-        width: 50%;
+        width: 100%;
         margin-bottom: 150px;
 
     }
 
     main>section#servicos>div#ofertas-servicos>div.item-servico {
-        width: 300px;
+        width: 60%;
         height: 200px;
         margin: 20px;
         padding: 5px 15px 15px 15px;
@@ -899,7 +899,7 @@ footer>div#footer-info-copy>p {
     }
 
     main>section#servicos>div#entregas-info>h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 400;
         color: #FFFFFF;
         padding: 2px;
@@ -908,7 +908,7 @@ footer>div#footer-info-copy>p {
     }
 
     .carousel-container {
-        width: 80%;
+        width: 100%;
         height: 400px;
         display: flex;
         align-items: start;
@@ -917,15 +917,18 @@ footer>div#footer-info-copy>p {
     }
 
     .carousel {
-        border-radius: 50px;
+        width: 80%;
+        border-radius: 80px;
     }
 
     #prevBtn {
         top: 43%;
+        left: 13%;
     }
 
     #nextBtn {
         top: 44%;
+        right: 13%;
     }
 
     main>section#servicos>div#estatisticas {
@@ -937,8 +940,8 @@ footer>div#footer-info-copy>p {
         display: flex;
         align-items: center;
         background-color: #0d31ff36;
-        gap: 10px;
-        padding: 20px;
+        gap: 5px;
+        padding: 25px;
         box-shadow: 2px 3px 15px 0px #0000008b;
     }
 
@@ -974,6 +977,11 @@ footer>div#footer-info-copy>p {
         text-align: center;
         padding: 10px;
         margin-left: 10px;
+    }
+    main>section#sobre>div#sobre-info-img>div#sobre-img {
+        width: 95%;
+        margin-top: 30px;
+        padding: 10px;
     }
 
     main>section#sobre>div#sobre-info-img>div#sobre-info>p#sobre-info-destaque {
@@ -1033,6 +1041,18 @@ footer>div#footer-info-copy>p {
         font-weight: 600;
         margin-top: 5px;
     }
+    main>section#contato>div#formulario {
+        width: 80%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: 5px 5px 8px 5px #00000036;
+        background-color: #ffffff;
+    }
+
 
     footer {
         background-color: #000312;
@@ -1057,6 +1077,15 @@ footer>div#footer-info-copy>p {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    footer>div#footer-info>div#footer-info-redes-icons {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+        width: 50%;
     }
 
     footer>div#footer-info>div#footer-info-redes>h1 {
