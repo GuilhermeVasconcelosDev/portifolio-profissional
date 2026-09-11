@@ -13,11 +13,11 @@
     <header>
         <i id="menu" class="fa-solid fa-bars" onclick="toggleMenu()"></i>
         <h1>GVTECH</h1>
-        <button  >
+        <button>
             <span id="icon-contato-zap">Contato</span>
             <i id="icon-zap" class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
         </button>
-        <nav id="menu-conteudo" >
+        <nav id="menu-conteudo">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#servicos">Serviços</a></li>
@@ -70,18 +70,20 @@
             <div id="entregas-info">
                 <h1>O sucesso não mente.<br>Confira nossas<span> entregas reais.</span> </h1>
             </div>
-            <div id="entregas-box">
-                <div class="entregas-item" id="entrega-1"></div>
-                <div class="entregas-item" id="entrega-2"></div>
-                <div class="entregas-item" id="entrega-3"></div>
-                <div class="entregas-item" id="entrega-4"></div>
+            <div class="carousel-container">
+                <!-- O carrossel em si -->
+                <div class="carousel" id="carousel">
+                    <div class="slide slide-1">Em Breve</div>
+                    <div class="slide slide-2">Em Breve</div>
+                    <div class="slide slide-3">Em Breve</div>
+                    <div class="slide slide-4">Em Breve</div>
+                </div>
+
+                <!-- Botões de navegação manual -->
+                <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+                <button class="nav-btn next" id="nextBtn">&#10095;</button>
             </div>
-            <div id="indicadores">
-                <div class="indicador" id="indicador-ativo"></div>
-                <div class="indicador"></div>
-                <div class="indicador"></div>
-                <div class="indicador"></div>
-            </div>
+
             <div id="estatisticas">
                 <div class="estatistica-dados">
                     <h1>+ 1</h1>
@@ -108,17 +110,20 @@
                     <p id="sobre-info-destaque">Quem Sou</p>
                     <h1>Guilherme Vasconcelos</h1>
                     <p>
-                          &nbsp;&nbsp;&nbsp; Olá! Meu nome é Guilherme Lima Vasconcelos, tenho 20 anos e estou ingressando com energia no
+                        &nbsp;&nbsp;&nbsp; Olá! Meu nome é Guilherme Lima Vasconcelos, tenho 20 anos e estou ingressando
+                        com energia no
                         mercado de tecnologia como desenvolvedor web focado em resultados. Atualmente, sou graduando no
                         curso de Engenharia de Software, onde transformo meu aprendizado acadêmico em soluções reais e
                         robustas. Minha grande paixão pelo que faço me move diariamente a buscar o que há de mais
                         moderno na programação. Especializei-me na criação e venda de sites personalizados e sistemas
-                        inteligentes que atendem às demandas únicas de cada negócio.<br>&nbsp;&nbsp;&nbsp;Meu grande objetivo profissional é
+                        inteligentes que atendem às demandas únicas de cada negócio.<br>&nbsp;&nbsp;&nbsp;Meu grande
+                        objetivo profissional é
                         oportunizar que empresas de todos os portes conquistem uma sólida visibilidade no mercado
                         digital. Compreendo que o cenário atual exige muito mais do que apenas uma página na internet;
                         exige ferramentas estratégicas que automatizem processos e atraiam os clientes certos. Por isso,
                         desenvolvo plataformas otimizadas para que marcas alcancem o topo do Google, gerem valor real e
-                        se destaquem fortemente de seus concorrentes diretos.<br>&nbsp;&nbsp;&nbsp;O foco principal do meu trabalho está em
+                        se destaquem fortemente de seus concorrentes diretos.<br>&nbsp;&nbsp;&nbsp;O foco principal do
+                        meu trabalho está em
                         fazer empresas crescerem através de soluções digitais eficientes, escaláveis e de alta
                         conversão. Acredito que a tecnologia inteligente é a chave definitiva para impulsionar vendas e
                         expandir o alcance de qualquer negócio moderno. Se você busca um parceiro dedicado para elevar o
@@ -172,14 +177,14 @@
         </section>
     </main>
     <footer>
-        
+
         <div id="footer-info">
             <div id="footer-info-redes">
                 <h1>GVTECH</h1>
                 <p>Sua presença digital desenhada <br> sob medida. </p>
                 <div id="footer-info-redes-icons">
                     <img width="40px" src="assets/icon-instagram.png" alt="instagram">
-                    <img  width="40px"src="assets/icon-whatts.png" alt="whatsapp">
+                    <img width="40px" src="assets/icon-whatts.png" alt="whatsapp">
                     <img width="40px" src="assets/icon-linkedin.png" alt="linkedin">
                 </div>
             </div>
