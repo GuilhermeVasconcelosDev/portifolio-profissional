@@ -1134,6 +1134,10 @@ footer>div#footer-info-copy>p {
     font-size: 0.6em;
 
 }
+* {
+  outline: 1px solid red !important;
+}
+
 
 
 
