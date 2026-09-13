@@ -720,6 +720,14 @@ footer>div#footer-info-copy>p {
 
 @media (max-width: 767px) {
 
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
     header {
         background-color: #040927;
         justify-content: space-around;
@@ -762,6 +770,7 @@ footer>div#footer-info-copy>p {
         background-color: #070f37;
         border-right: 5px solid #142268;
     }
+
     #menu-conteudo {
         display: block;
         transform: translateX(-100%);
@@ -793,12 +802,13 @@ footer>div#footer-info-copy>p {
         padding: 25px 20px;
         border-bottom: 1px solid #ffffff6e;
         text-align: center;
-        
+
     }
-     header>nav>ul>li>a {
+
+    header>nav>ul>li>a {
         padding: 25px 20px;
 
-     }
+    }
 
     header>nav>ul>li:hover {
         transform: none;
@@ -811,6 +821,7 @@ footer>div#footer-info-copy>p {
 
     main>section#home>div#home-info {
         background-color: #d9d9d92a;
+        width: 94%;
         height: 50%;
         display: flex;
         flex-direction: column;
@@ -820,7 +831,7 @@ footer>div#footer-info-copy>p {
         border-radius: 80px;
         backdrop-filter: blur(5px);
         text-align: center;
-        max-width: 80%;
+        max-width: 400px;
     }
 
     main>section#home>div#home-info>h1 {
@@ -857,9 +868,11 @@ footer>div#footer-info-copy>p {
         border: 1px solid #0c1c77;
         border-radius: 30px;
         font-family: 'Poppins', sans-serif;
+        text-align: center;
     }
 
     main>section#servicos>div#servicos-info>h1 {
+        width: 100%;
         font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
         font-weight: 400;
@@ -979,6 +992,7 @@ footer>div#footer-info-copy>p {
         padding: 10px;
         margin-left: 10px;
     }
+
     main>section#sobre>div#sobre-info-img>div#sobre-img {
         width: 95%;
         margin-top: 30px;
@@ -1042,6 +1056,7 @@ footer>div#footer-info-copy>p {
         font-weight: 600;
         margin-top: 5px;
     }
+
     main>section#contato>div#formulario {
         width: 80%;
         height: 550px;
@@ -1079,6 +1094,7 @@ footer>div#footer-info-copy>p {
         align-items: center;
         text-align: center;
     }
+
     footer>div#footer-info>div#footer-info-redes-icons {
         height: 40px;
         display: flex;
@@ -1115,26 +1131,28 @@ footer>div#footer-info-copy>p {
         text-align: top;
         gap: 50px;
     }
+
     footer>div#footer-info>div#footer-info-links>div>h2 {
-    font-family: "poppins", sans-serif;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    font-weight: 500;
-    text-align: start;
-}
+        font-family: "poppins", sans-serif;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        font-weight: 500;
+        text-align: start;
+    }
 
-footer>div#footer-info>div#footer-info-links>div>ul>li {
-    font-family: "poppins", sans-serif;
-    color: #d9d9d976;
-    font-size: 0.7em;
-    padding: 2px;
-}
-footer>div#footer-info-copy>p {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    font-size: 0.6em;
+    footer>div#footer-info>div#footer-info-links>div>ul>li {
+        font-family: "poppins", sans-serif;
+        color: #d9d9d976;
+        font-size: 0.7em;
+        padding: 2px;
+    }
 
-}
+    footer>div#footer-info-copy>p {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: 0.6em;
+
+    }
 
 
 
@@ -1145,13 +1163,15 @@ footer>div#footer-info-copy>p {
 }
 
 @media (min-width: 767px) {
-    header > h1 {
+    header>h1 {
         order: 1;
     }
-    header > a {
+
+    header>a {
         order: 3;
     }
-    header > nav {
+
+    header>nav {
         order: 2;
     }
 }
