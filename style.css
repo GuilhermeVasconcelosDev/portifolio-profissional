@@ -31,6 +31,7 @@ body {
         radial-gradient(circle at 20% 38%, rgba(13, 51, 255, 0.22) 10%, transparent 18%),
         radial-gradient(circle at 80% 58%, rgba(13, 51, 255, 0.22) 10%, transparent 20%);
     background-color: #000312;
+    overflow-x: hidden;
 }
 
 header {
@@ -38,7 +39,7 @@ header {
     height: 60px;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
