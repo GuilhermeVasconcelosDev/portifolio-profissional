@@ -729,6 +729,7 @@ footer>div#footer-info-copy>p {
     }
 
     header {
+        width: 100%;
         background-color: #040927;
         justify-content: space-around;
     }
@@ -821,13 +822,13 @@ footer>div#footer-info-copy>p {
 
     main>section#home>div#home-info {
         background-color: #d9d9d92a;
-        width: 94%;
+        width: 98%;
         height: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 10px;
         border-radius: 80px;
         backdrop-filter: blur(5px);
         text-align: center;
@@ -835,6 +836,7 @@ footer>div#footer-info-copy>p {
     }
 
     main>section#home>div#home-info>h1 {
+        width: 100%;
         font-size: 1.4rem;
         font-weight: 600;
         color: #FFFFFF;
@@ -869,6 +871,9 @@ footer>div#footer-info-copy>p {
         border-radius: 30px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
+    }
+    main>section#servicos {
+        width: 100%;
     }
 
     main>section#servicos>div#servicos-info>h1 {
