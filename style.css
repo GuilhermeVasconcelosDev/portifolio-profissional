@@ -732,6 +732,8 @@ footer>div#footer-info-copy>p {
         width: 100%;
         background-color: #040927;
         justify-content: space-around;
+        max-width: 100vw;
+        box-sizing: border-box;
     }
 
     header>#menu {
@@ -739,12 +741,11 @@ footer>div#footer-info-copy>p {
         font-size: 1.2em;
         padding: 10px;
         cursor: pointer;
-        transform: translateX(-100%);
         transition: transform 0.3s ease-in-out;
     }
 
     header>h1 {
-        color: #760000;
+        color: #ffffff;
     }
 
     header>a>button {
@@ -773,7 +774,10 @@ footer>div#footer-info-copy>p {
     }
 
     #menu-conteudo {
+        position: absolute;
         display: block;
+        top: 10;
+        left: 0;
         transform: translateX(-100%);
         transition: transform 0.3s ease-in-out;
     }
@@ -872,6 +876,7 @@ footer>div#footer-info-copy>p {
         font-family: 'Poppins', sans-serif;
         text-align: center;
     }
+
     main>section#servicos {
         width: 100%;
     }
