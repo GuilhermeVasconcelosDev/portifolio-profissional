@@ -452,7 +452,7 @@ main>section#servicos>div#estatisticas>div.estatistica-dados>p {
 
 main>section#sobre {
     height: 100%;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 
 }
@@ -539,7 +539,7 @@ main>section#contato {
     background-color: #000312;
     background: center/cover no-repeat url(assets/img-contato.png);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1134,9 +1134,7 @@ footer>div#footer-info-copy>p {
     font-size: 0.6em;
 
 }
-* {
-  outline: 1px solid red !important;
-}
+
 
 
 
