@@ -884,293 +884,304 @@ footer>div#footer-info-copy>p {
     main>section#servicos>div#servicos-info>h1 {
         width: 100%;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 400;
-        color: #FFFFFF;
-        padding: 2px;
-    }
-
-    main>section#servicos>div#servicos-info>h2 {
-        font-size: 0.6rem;
-        font-weight: 400;
-        color: #ffffff74;
-        padding: 5px;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    main>section#servicos>div#ofertas-servicos {
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: top;
-        width: 100%;
-        margin-bottom: 150px;
-
-    }
-
-    main>section#servicos>div#ofertas-servicos>div.item-servico {
-        width: 60%;
-        height: 200px;
-        margin: 20px;
-        padding: 5px 15px 15px 15px;
-        border-radius: 6px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
-        background-color: #0D33FF;
-    }
-
-    main>section#servicos>div#entregas-info>h1 {
-        font-size: 1.2rem;
-        font-weight: 400;
-        color: #FFFFFF;
-        padding: 2px;
-        text-shadow: 1px 10px 10px #00000083;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .carousel-container {
-        width: 100%;
-        height: 400px;
-        display: flex;
-        align-items: start;
-        justify-content: center;
-
-    }
-
-    .carousel {
-        width: 80%;
-        border-radius: 80px;
-    }
-
-    #prevBtn {
-        top: 43%;
-        left: 13%;
-    }
-
-    #nextBtn {
-        top: 44%;
-        right: 13%;
-    }
-
-    main>section#servicos>div#estatisticas {
-        margin-top: 70px;
-        font-family: "Aboreto", sans-serif;
-        color: #ffffff;
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        background-color: #0d31ff36;
-        gap: 5px;
-        padding: 25px;
-        box-shadow: 2px 3px 15px 0px #0000008b;
-    }
-
-    main>section#servicos>div#estatisticas>div.estatistica-dados>h1 {
-        color: #ffffffcf;
-        font-size: 0.7rem;
-        font-weight: 400;
-        font-family: "Aboreto", sans-serif;
-    }
-
-    main>section#servicos>div#estatisticas>div.estatistica-dados>p {
-        font-family: "Aboreto", sans-serif;
-        text-align: left;
-        color: #ffffffd5;
-        font-size: 0.5rem;
-        font-weight: 400;
-    }
-
-    main>section#sobre>div#sobre-info-img {
-        width: 100%;
-        height: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: top;
-        margin-top: 60px;
-        gap: 20px;
-    }
-
-    main>section#sobre>div#sobre-info-img>div#sobre-info {
-        color: #ffffff;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-        margin-left: 10px;
-    }
-
-    main>section#sobre>div#sobre-info-img>div#sobre-img {
-        width: 95%;
-        margin-top: 30px;
-        padding: 10px;
-    }
-
-    main>section#sobre>div#sobre-info-img>div#sobre-info>p#sobre-info-destaque {
-        font-family: "Poppins", sans-serif;
-        color: #0D33FF;
-        font-size: 0.8rem;
-        font-weight: 700;
-        margin-left: 10px;
-    }
-
-    main>section#sobre>div#sobre-info-img>div#sobre-info>h1 {
-        font-family: "Poppins", sans-serif;
-        color: #ffffff;
-        font-size: 1.6rem;
-        font-weight: 700;
-        text-align: center;
-    }
-
-    main>section#sobre>div#sobre-info-img>div#sobre-info>p {
-        font-family: "Poppins", sans-serif;
-        width: 90%;
-        color: #ffffffc8;
-        line-height: 1.2rem;
-        font-size: 0.7rem;
-        font-weight: 400;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    main>section#sobre>div#sobre-tecnologias {
-        background-color: #0d31ff36;
-        width: 100vw;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item {
-        width: 100vw;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item>img {
-        width: 40px;
-        height: 40px;
-    }
-
-    main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item>p {
-        font-family: "Poppins", sans-serif;
-        color: #ffffff;
-        font-size: 0.6rem;
-        font-weight: 600;
-        margin-top: 5px;
-    }
-
-    main>section#contato>div#formulario {
-        width: 80%;
-        height: 550px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        box-shadow: 5px 5px 8px 5px #00000036;
-        background-color: #ffffff;
-    }
-
-
-    footer {
-        background-color: #000312;
-        width: 100vw;
-        height: 400px;
-    }
-
-    footer>div#footer-info {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    footer>div#footer-info>div#footer-info-redes {
-        width: 30%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    footer>div#footer-info>div#footer-info-redes-icons {
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 10px;
-        width: 50%;
-    }
-
-    footer>div#footer-info>div#footer-info-redes>h1 {
-        font-family: "Poppins", sans-serif;
-        color: #ffffff;
         font-size: 1.4rem;
-        font-weight: 700;
-        padding: 5px;
-    }
-
-    footer>div#footer-info>div#footer-info-redes>p {
-        font-family: "Poppins", sans-serif;
-        color: #ffffff97;
-        font-size: 0.7rem;
         font-weight: 400;
-        padding: 10px;
-    }
-
-    footer>div#footer-info>div#footer-info-links {
-        width: 30%;
-        height: 60%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: top;
-        text-align: top;
-        gap: 50px;
-    }
-
-    footer>div#footer-info>div#footer-info-links>div>h2 {
-        font-family: "poppins", sans-serif;
-        font-size: 1.2em;
-        margin-bottom: 10px;
-        font-weight: 500;
-        text-align: start;
-    }
-
-    footer>div#footer-info>div#footer-info-links>div>ul>li {
-        font-family: "poppins", sans-serif;
-        color: #d9d9d976;
-        font-size: 0.7em;
+        color: #FFFFFF;
         padding: 2px;
     }
 
-    footer>div#footer-info-copy>p {
-        font-family: "Montserrat", sans-serif;
-        text-align: center;
-        font-size: 0.6em;
-
+    main>section#servicos>div#servicos-info>h1>span {
+        display: inline-block;
+        white-space: nowrap;
     }
+}
 
+main>section#servicos>div#servicos-info>h2 {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #ffffff74;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
 
-
-
-
-
+main>section#servicos>div#ofertas-servicos {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: 100%;
+    margin-bottom: 150px;
 
 }
+
+main>section#servicos>div#ofertas-servicos>div.item-servico {
+    width: 60%;
+    height: 200px;
+    margin: 20px;
+    padding: 5px 15px 15px 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: #0D33FF;
+}
+
+main>section#servicos>div#entregas-info>h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 2px;
+    text-shadow: 1px 10px 10px #00000083;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.carousel {
+    width: 80%;
+    border-radius: 80px;
+}
+
+#prevBtn {
+    top: 43%;
+    left: 13%;
+}
+
+#nextBtn {
+    top: 44%;
+    right: 13%;
+}
+
+main>section#servicos>div#estatisticas {
+    margin-top: 70px;
+    font-family: "Aboreto", sans-serif;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #0d31ff36;
+    gap: 10px;
+    padding: 25px;
+    box-shadow: 2px 3px 15px 0px #0000008b;
+}
+
+main>section#servicos>div#estatisticas>div.estatistica-dados>h1 {
+    color: #ffffffcf;
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: "Aboreto", sans-serif;
+}
+
+main>section#servicos>div#estatisticas>div.estatistica-dados>p {
+    font-family: "Aboreto", sans-serif;
+    text-align: left;
+    color: #ffffffd5;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
+main>section#sobre>div#sobre-info-img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+main>section#sobre>div#sobre-info-img>div#sobre-info {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+main>section#sobre>div#sobre-info-img>div#sobre-img {
+    width: 95%;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+main>section#sobre>div#sobre-info-img>div#sobre-info>p#sobre-info-destaque {
+    font-family: "Poppins", sans-serif;
+    color: #0D33FF;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+main>section#sobre>div#sobre-info-img>div#sobre-info>h1 {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+main>section#sobre>div#sobre-info-img>div#sobre-info>p {
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    color: #ffffffc8;
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+main>section#sobre>div#sobre-tecnologias {
+    background-color: #0d31ff36;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item>img {
+    width: 40px;
+    height: 40px;
+}
+
+main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item>p {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+main>section#contato {
+    width: 100%;
+    height: 800px;
+    overflow-y: hidden;
+}
+
+main>section#contato>div#formulario {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px 5px #00000036;
+    background-color: #ffffff;
+}
+
+
+footer {
+    background-color: #000312;
+    width: 100vw;
+    height: 400px;
+}
+
+footer>div#footer-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>div#footer-info>div#footer-info-redes {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer>div#footer-info>div#footer-info-redes-icons {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+footer>div#footer-info>div#footer-info-redes>h1 {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 5px;
+}
+
+footer>div#footer-info>div#footer-info-redes>p {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff97;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+footer>div#footer-info>div#footer-info-links {
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    text-align: top;
+    gap: 50px;
+}
+
+footer>div#footer-info>div#footer-info-links>div>h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: start;
+}
+
+footer>div#footer-info>div#footer-info-links>div>ul>li {
+    font-family: "poppins", sans-serif;
+    color: #d9d9d976;
+    font-size: 0.7em;
+    padding: 2px;
+}
+
+footer>div#footer-info-copy>p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+
+}
+
+
+
+
+
+
+
+
 
 @media (min-width: 767px) {
     header>h1 {
