@@ -125,7 +125,7 @@ header>a>button:hover {
 }
 
 main {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -226,15 +226,15 @@ main>section#servicos>div#servicos-info {
     background-image: radial-gradient(ellipse at 50% 0%, rgba(13, 51, 255, 0.22) 25%, transparent 70%);
     width: 100%;
     height: 300px;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 main>section#servicos>div#servicos-info>h1 {
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     color: #FFFFFF;
-    padding: 2px;
 }
 
 main>section#servicos>div#servicos-info>h1>span {
@@ -884,7 +884,7 @@ footer>div#footer-info-copy>p {
     main>section#servicos>div#servicos-info>h1 {
         width: 100%;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 400;
         color: #FFFFFF;
         padding: 2px;
@@ -929,7 +929,7 @@ main>section#servicos>div#ofertas-servicos>div.item-servico {
 }
 
 main>section#servicos>div#entregas-info>h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: #FFFFFF;
     padding: 2px;
