@@ -417,7 +417,7 @@ main>section#servicos>div#estatisticas {
     align-items: center;
     background-color: #0d31ff36;
     gap: 10px;
-    padding: 15px;
+    padding: 5px;
     box-shadow: 2px 3px 15px 0px #0000008b;
 }
 
@@ -820,6 +820,7 @@ footer>div#footer-info-copy>p {
     }
 
     main>section#home {
+        height: 800px;
         justify-content: center;
         background: #000312 url(./assets/img-home.png) no-repeat center center/cover;
     }
@@ -977,17 +978,19 @@ main>section#servicos>div#estatisticas {
 
 main>section#servicos>div#estatisticas>div.estatistica-dados>h1 {
     color: #ffffffcf;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 400;
     font-family: "Aboreto", sans-serif;
+    padding: 2px;
 }
 
 main>section#servicos>div#estatisticas>div.estatistica-dados>p {
     font-family: "Aboreto", sans-serif;
     text-align: left;
     color: #ffffffd5;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     font-weight: 400;
+    padding: 5px;
 }
 
 main>section#sobre>div#sobre-info-img {
@@ -1092,7 +1095,7 @@ main>section#contato>div#formulario {
 
 
 footer {
-    background-color: #000312;
+    background-color: #000621;
     width: 100vw;
     height: 400px;
 }
