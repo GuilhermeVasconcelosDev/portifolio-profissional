@@ -804,7 +804,7 @@ footer>div#footer-info-copy>p {
         color: #ffffffc9;
         cursor: pointer;
         transition: none;
-        padding: 25px 20px;
+        padding: 25px 5px;
         border-bottom: 1px solid #ffffff6e;
         text-align: center;
 
@@ -828,7 +828,7 @@ footer>div#footer-info-copy>p {
     main>section#home>div#home-info {
         background-color: #d9d9d92a;
         width: 98%;
-        height: 50%;
+        height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -920,7 +920,7 @@ main>section#servicos>div#ofertas-servicos>div.item-servico {
     width: 60%;
     height: 200px;
     margin: 20px;
-    padding: 5px 15px 15px 15px;
+    padding: 5px 5px 5px 15px;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -972,7 +972,7 @@ main>section#servicos>div#estatisticas {
     align-items: center;
     background-color: #0d31ff36;
     gap: 10px;
-    padding: 25px;
+    padding: 20px 5px;
     box-shadow: 2px 3px 15px 0px #0000008b;
 }
 
