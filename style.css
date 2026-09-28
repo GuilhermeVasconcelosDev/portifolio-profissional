@@ -34,6 +34,18 @@ body {
     overflow-x: hidden;
 }
 
+header>h1 {
+    order: 1;
+}
+
+header>a {
+    order: 3;
+}
+
+header>nav {
+    order: 2;
+}
+
 header {
     font-family: 'Poppins', sans-serif;
     height: 60px;
@@ -213,13 +225,12 @@ main>section#home>div#home-info>ul>li#destaque-agendamento {
 }
 
 main>section#servicos {
-    height: 100%;
+    height: 190vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 main>section#servicos>div#servicos-info {
@@ -253,30 +264,31 @@ main>section#servicos>div#servicos-info>h2 {
 
 main>section#servicos>div#ofertas-servicos {
     width: 100%;
-    height: 400px;
+    height: 700px;
     display: flex;
-    align-items: top;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
+
 
 }
 
 main>section#servicos>div#ofertas-servicos>div.item-servico {
     background-color: #0D33FF;
-    width: 500px;
+    width: 20%;
+    max-width: 350px;
     height: 200px;
     margin: 20px;
     padding: 5px 15px 15px 15px;
     border-radius: 6px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: left;
 
 }
 
 main>section#servicos>div#ofertas-servicos>div.item-servico>span>img {
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
 }
 
 main>section#servicos>div#ofertas-servicos>div.item-servico>span {
@@ -462,6 +474,7 @@ main>section#sobre>div#sobre-info-img {
     width: 100%;
     height: 70%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: top;
     margin-top: 60px;
@@ -1075,6 +1088,7 @@ main>section#sobre>div#sobre-tecnologias>div.sobre-tecnologias-item>p {
     font-weight: 600;
     margin-top: 5px;
 }
+
 main>section#contato {
     width: 100%;
     height: 800px;
@@ -1184,18 +1198,3 @@ footer>div#footer-info-copy>p {
 
 
 
-
-
-@media (min-width: 767px) {
-    header>h1 {
-        order: 1;
-    }
-
-    header>a {
-        order: 3;
-    }
-
-    header>nav {
-        order: 2;
-    }
-}
