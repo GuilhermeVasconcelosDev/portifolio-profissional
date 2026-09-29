@@ -275,13 +275,13 @@ main>section#servicos>div#ofertas-servicos {
 
 main>section#servicos>div#ofertas-servicos>div.item-servico {
     background-color: #0D33FF;
-    width: 20%;
+    height: 210px;
+    width: 30%;
     max-width: 350px;
-    height: 200px;
     margin: 20px;
     padding: 5px 15px 15px 15px;
     border-radius: 6px;
-    justify-content: center;
+    justify-self: center;
     text-align: left;
 
 }
@@ -345,9 +345,10 @@ main>section#servicos>div#entregas-info>h1>span {
 
 .carousel-container {
     position: relative;
+    height: 400px;
     width: 100%;
     max-width: 800px;
-    margin: 50px;
+    margin: 10px;
     overflow: hidden;
 }
 
